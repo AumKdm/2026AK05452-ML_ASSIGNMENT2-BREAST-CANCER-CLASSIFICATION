@@ -1,0 +1,53 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic)",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "n_rows_total": 569,
+  "n_rows_train": 455,
+  "n_rows_test": 114,
+  "n_features": 30,
+  "feature_names": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_error",
+    "texture_error",
+    "perimeter_error",
+    "area_error",
+    "smoothness_error",
+    "compactness_error",
+    "concavity_error",
+    "concave_points_error",
+    "symmetry_error",
+    "fractal_dimension_error",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "target": "diagnosis",
+  "class_labels": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "models": {
+    "Logistic Regression": "logistic_regression.pkl",
+    "Decision Tree": "decision_tree.pkl",
+    "KNN": "knn.pkl",
+    "Naive Bayes": "naive_bayes.pkl",
+    "Support Vector Machine": "support_vector_machine.pkl"
+  },
+  "sklearn_version": "1.6.1"
+}
